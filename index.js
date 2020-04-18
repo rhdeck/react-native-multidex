@@ -17,7 +17,7 @@ const fixMultidex = (path = process.cwd()) => {
     );
   }
   //Edit build.gradle
-  const newConfig = "multidexEnabled true";
+  const newConfig = "multiDexEnabled true";
   const dependencies = `def multidex_version = "2.0.1"
 implementation "androidx.multidex:multidex:$multidex_version"`;
   const buildGradleText = readFileSync(buildGradlePath, {
