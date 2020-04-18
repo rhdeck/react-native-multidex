@@ -1,6 +1,6 @@
 {
   "name": "react-native-multidex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility for activating multidex support in react-native apps",
   "main": "index.js",
   "scripts": {
