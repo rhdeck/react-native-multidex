@@ -1,0 +1,31 @@
+{
+  "name": "react-native-multidex",
+  "version": "1.0.0",
+  "description": "Utility for activating multidex support in react-native apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdeck/react-native-multidex.git"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "multidex"
+  ],
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/react-native-multidex/issues"
+  },
+  "homepage": "https://github.com/rhdeck/react-native-multidex#readme",
+  "peerDependencies": {
+    "react-native": "^0.62.2"
+  },
+  "dependencies": {
+    "@raydeck/react-native-utilities": "^1.0.3",
+    "glob": "^7.1.6"
+  }
+}
